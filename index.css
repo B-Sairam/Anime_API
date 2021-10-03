@@ -46,6 +46,7 @@ section{
 
 .con-row .card > .card-body {
     flex-grow: 1;
+    overflow:hidden;
 }
 .con-row .card > .card-img {
     flex-basis: 20rem;
