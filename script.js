@@ -47,9 +47,11 @@ function update(data){
                             <p class="card-text">Type : ${key.toUpperCase()}</p>
                             <p class="card-text">Start-Date : ${anime.start_date}</p>
                             <p class="card-text">End-Date : ${anime.end_date}</p>
+                             <a href="${anime.url}" class="btn btn-primary btn-block url-btn ">Click to Watch</a>
                             </div>
                             <div class = "card-footer">
                          <a href="${anime.url}" class="btn btn-primary btn-block url-btn ">Click to Watch</a>
+                         </div>
                         
                     </div>
                 `
