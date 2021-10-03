@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-image: url(https://zoro.to/images/zoro-bg.jpg);
+}
+
+.url-btn{
+    display: flex;
+    bottom: 0;
+}
+
+.logo{
+    color: yellow;
+}
+.card-footer{
+background: yellow;
+}
+section{
+    padding: 30px;
+}
+.type{
+    color: white;
+}
+
+.con-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: stretch;
+
+}
+.con-row > * {
+    flex-basis: 20rem;
+    flex-shrink: 0;
+}
+.con-row .card {
+    margin: 10px;
+   background-color:gray;
+   color: white;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.con-row .card > .card-body {
+    flex-grow: 1;
+}
+.con-row .card > .card-img {
+    flex-basis: 20rem;
+   padding-left: 50px;
+   overflow-y: hidden;
+   overflow-x: hidden;
+    background-color: grey;
+}
