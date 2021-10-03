@@ -45,7 +45,7 @@ function update(data){
                              <span class="badge badge-warning">IMDB ${anime.score}</span>
                             <span class="badge badge-primary">EP1-${anime.episodes}</span>
                             <p class="card-text">Type : ${key.toUpperCase()}</p>
-                            <p class="card-text">State-Date : ${anime.start_date}</p>
+                            <p class="card-text">Start-Date : ${anime.start_date}</p>
                             <p class="card-text">End-Date : ${anime.end_date}</p>
                             <a href="${anime.url}" class="btn btn-primary btn-block url-btn ">Click to Watch</a>
                             </div>
